@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(lightblue, darkblue);
+}
+
+/*********************** header style ****************************/
+header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-top: 15px;
+    border-bottom: 2px solid rgb(187, 130, 240);
+}
+
+.left-header {
+    display: flex;
+    padding-left: 20px;
+}
+
+.left-header h1 {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.left-header h1:hover {
+    color: darkblue;
+}
+
+.right-header {
+    padding-right: 17%;
+    margin-top: 30px;
+}
+
+.right-header a {
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.right-header a:hover {
+    color: darkblue;
+}
+
+/*********************** main style ****************************/
+main{
+    display: flex;
+}
+.title-area {
+    padding-left: 25px;
+    padding-top: 5%;
+}
+
+.title-area h2 {
+    color: rgb(142, 37, 240);;
+    font-size: 2.5rem;
+}
+.title-area p{
+    padding-top: 25px;
+    padding-left: 10px;
+    font-size: 23px;
+}
+.img-area{
+    padding-left: 50px;
+    padding-top: 40px;
+}
+.grid-container{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.grid-item img{
+    width: 150px;
+}
