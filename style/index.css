@@ -23,14 +23,19 @@ header {
     display: flex;
     padding-left: 20px;
 }
+.left-header a{
+    text-decoration: none;
+}
 
 .left-header h1 {
+    color: white;
     margin-top: 15px;
     margin-left: 25px;
 }
 
 .left-header h1:hover {
     color: darkblue;
+    
 }
 
 .right-header {
@@ -46,6 +51,7 @@ header {
 }
 
 .right-header a:hover {
+    
     color: darkblue;
 }
 
