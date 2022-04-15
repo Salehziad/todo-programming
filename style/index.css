@@ -6,8 +6,8 @@
 }
 
 body {
-    height: 100vh;
-    background-image: linear-gradient(lightblue, darkblue);
+    height: 100%;
+    background-image: linear-gradient(lightblue, rgb(126, 126, 194));
 }
 
 /*********************** header style ****************************/
@@ -23,7 +23,8 @@ header {
     display: flex;
     padding-left: 20px;
 }
-.left-header a{
+
+.left-header a {
     text-decoration: none;
 }
 
@@ -35,7 +36,7 @@ header {
 
 .left-header h1:hover {
     color: darkblue;
-    
+
 }
 
 .right-header {
@@ -51,43 +52,116 @@ header {
 }
 
 .right-header a:hover {
-    
+
     color: darkblue;
 }
 
 /*********************** main style ****************************/
-main{
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section {
     display: flex;
 }
+
 .title-area {
     padding-left: 25px;
     padding-top: 5%;
 }
 
 .title-area h2 {
-    color: rgb(142, 37, 240);;
+    color: rgb(142, 37, 240);
+    ;
     font-size: 2.5rem;
 }
-.title-area p{
+
+.title-area p {
     padding-top: 25px;
     padding-left: 10px;
     font-size: 23px;
 }
-.img-area{
+
+.img-area {
     padding-left: 50px;
     padding-top: 40px;
 }
-.grid-container{
+
+.grid-container {
     display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
 }
+
 .grid-item {
 
     padding: 20px;
     font-size: 30px;
     text-align: center;
 }
-.grid-item img{
+
+.grid-item img {
     width: 150px;
 }
+
+.bottom-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.bottom-section p:nth-child(1) {
+    font-size: 40px;
+    color: wheat;
+}
+
+.bottom-section p:nth-child(2) {
+    font-size: 30px;
+    color: wheat;
+}
+
+.bottom-section img {
+    width: 500px;
+}
+
+/********************************************** social media icons ********************************/
+.social-buttons a {
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 18px;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 8px;
+}
+
+.social-buttons a::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(45deg, #22a6b3, #30336b);
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.3s ease-in;
+}
+
+.social-buttons a:hover::before {
+    transform: scale(0);
+}
+
+.social-buttons a i {
+    transition: 0.3s ease-in;
+}
+
+.social-buttons a:hover i {
+    background: linear-gradient(45deg, #22a6b3, #30336b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(2.2);
+}
+
+/**************************************************** footer style *******************************/
