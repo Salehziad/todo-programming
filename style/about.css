@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(lightblue, rgb(126, 126, 194));
+}
+
+/*********************** header style ****************************/
+header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-top: 15px;
+    border-bottom: 2px solid rgb(187, 130, 240);
+}
+
+.left-header {
+    display: flex;
+    padding-left: 20px;
+}
+
+.left-header a {
+    text-decoration: none;
+}
+
+.left-header h1 {
+    color: white;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 2em;
+}
+
+.left-header h1:hover {
+    color: darkblue;
+
+}
+
+.right-header {
+    padding-right: 17%;
+    margin-top: 30px;
+}
+
+.right-header a {
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.right-header a:hover {
+
+    color: darkblue;
+}
+
+/******************************************** main style ***************************/
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: rgb(154, 45, 168);
+}
+p{
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(168, 103, 211);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************************************** footer style *******************************/
+footer {
+    position: relative;
+    bottom: -262px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 180px;
+    background-color: blueviolet;
+}
+
+.section1-footer {
+    margin-left: 30px;
+    margin-top: 15px;
+
+}
+
+.section1-footer p:nth-child(1) {
+    font-size: 23px;
+    margin-top: 10px;
+    color: white;
+}
+
+.section1-footer p:nth-child(2) {
+    font-size: 17px;
+    margin-top: 10px;
+    color: white;
+}
+
+.section1-footer p:nth-child(3) {
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+}
+
+.section1-footer p:nth-child(4) {
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+.section1-footer p:nth-child(4) a {
+    text-decoration: none;
+    color: blue;
+}
+
+.section2-footer {
+    margin-top: 25px;
+    margin-right: 30px;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 600px;
+    height: 130px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 600px;
+    height: 130px;
+}
+
+.gmap_iframe {
+    width: 400px !important;
+    height: 130px !important;
+}
