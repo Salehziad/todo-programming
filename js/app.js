@@ -11,19 +11,24 @@ age=  prompt("What is your age");
 if(gender.toLowerCase() == 'male'){
     title="Mr";
     userAnswer = confirm("Do you want to skip the welcoming message");
+    if(userAnswer==true){
+    }else{
+        withTitle();
+    }
 }else if(gender.toLowerCase() == 'female'){
     title="Ms";
     userAnswer = confirm("Do you want to skip the welcoming message");
+    if(userAnswer==true){
+    }else{
+        withTitle();
+    }
 }else{
     withoutTitle();
 }
 
 
 
-if(userAnswer==true){
-}else{
-    withTitle();
-}
+
 function withTitle(){
    alert("Welcome "+title+" " +userName );
 }
