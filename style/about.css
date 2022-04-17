@@ -134,26 +134,13 @@ footer {
     color: blue;
 }
 
-.section2-footer {
+.section2-footer{
     margin-top: 25px;
     margin-right: 30px;
 }
-
-.mapouter {
+.section2-footer a img {
     position: relative;
     text-align: right;
-    width: 600px;
+    width: 400px;
     height: 130px;
-}
-
-.gmap_canvas {
-    overflow: hidden;
-    background: none !important;
-    width: 600px;
-    height: 130px;
-}
-
-.gmap_iframe {
-    width: 400px !important;
-    height: 130px !important;
 }
