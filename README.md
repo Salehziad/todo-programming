@@ -6,4 +6,4 @@
 
 # examples solutions:
 >## 1- until now every thing is great no questions.
->## 2- it take 2 day because i have add things more than the requerments , also i think it will take 1 day.
+>## 2- it take 2 hour with study every thing is good , also i think it will take 1 hour.
